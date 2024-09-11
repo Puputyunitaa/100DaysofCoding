@@ -1,16 +1,18 @@
-//bagin kelas
 public class Day10 {
-
     //method main
     public static void main(String[] args) {
+        
+         // deklarasi tipe data byte
+        byte nilai = -128;
+        
+         //output variabel nilai
+        System.out.println("Nilai min byte : " + nilai);
 
-         // Batas minimal tipe data byte
-        byte minByte = Byte.MIN_VALUE;
-        System.out.println("Nilai minimum byte: " + minByte);
-
-        // Batas maksimal tipe data byte
-        byte maxByte = Byte.MAX_VALUE;
-        System.out.println("Nilai maksimum byte: " + maxByte);
+        // deklarasi tipe data byte
+        byte nilai2 = 127;
+        
+         //output variabel nilai2
+        System.out.println("Nilai max byte : " + nilai2);
         
     }
     
