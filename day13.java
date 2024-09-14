@@ -20,6 +20,11 @@ public class D13 {
             
          System.out.println( aa);
          System.out.println(bb);
+
+        byte min = -128;
+        byte max = 127;
+        System.out.printf(min);
+        System.out.printf(max + 1);
         
     }
     
