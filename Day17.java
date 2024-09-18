@@ -3,17 +3,14 @@ public class D17 {
        
         char nilail = 'a';       
         char nilai2 = 'b';
-        char nilai3 = 'c';
-             nilai2 = nilai3;
-             
-        final char nilai4 = 'd';
+             nilai2 = 'c';  
+        final char nilai3 = 'd';
+        
         char kosong;
-        kosong =  nilail;
-        nilai2 = kosong;
-        nilail = nilai3;
-        nilai3 = nilai4;
-       
-              
+        kosong = nilail ;
+        nilail = nilai2;
+        nilai2 = kosong ;
+             
         
         System.out.println(nilail);
         System.out.println(nilai2);
