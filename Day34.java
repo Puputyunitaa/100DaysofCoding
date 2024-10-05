@@ -21,7 +21,7 @@ public class D34 {
         String Motivasi = input.nextLine();
          input.nextLine();
         System.out.print("pesan dan Kesan : ");
-        String PesandanKesan = input.next();
+        String PesandanKesan = input.nextLine();
         
         
     }
