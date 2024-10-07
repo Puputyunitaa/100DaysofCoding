@@ -10,8 +10,8 @@ public class D36 {
         int bagi = aa / bb;
         System.out.println("hasil bagi = " + bagi);
 
-        int modulo = aa % bb;
-        System.out.println("hasil modulus = " + modulo);
+        int modulus = aa % bb;
+        System.out.println("hasil modulus = " + modulus);
     }
 
 }
