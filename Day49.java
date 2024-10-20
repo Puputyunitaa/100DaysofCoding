@@ -9,10 +9,10 @@ public class D49p {
         System.out.print("Masukkan : ");
         int to = input.nextInt();
 
-        if (to <= 100 ) {
+        if (to < 100 ) {
             System.out.println("di bawah seratus");
         } else if (to >= 100) {
-            System.out.println("di atas seratus");
+            System.out.println("sama dengan seratus dan di atas seratus ");
        
         }
 
