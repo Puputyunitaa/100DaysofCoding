@@ -9,12 +9,11 @@ public class D49p {
         System.out.print("Masukkan : ");
         int to = input.nextInt();
 
-        if (to > 80) {
-            System.out.println("Nilai Anda: A");
-        } else if (to >= 50) {
-            System.out.println("Nilai Anda: B");
-        } else {
-            System.out.println("bukan nilai keduanya : "); 
+        if (to <= 100 ) {
+            System.out.println("di bawah seratus");
+        } else if (to >= 100) {
+            System.out.println("di atas seratus");
+       
         }
 
     }
