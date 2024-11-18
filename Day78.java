@@ -16,9 +16,16 @@ public class D78 {
         boolean hasil1 = kata1.equalsIgnoreCase(kata2);
         boolean hasil2 = kata1.equalsIgnoreCase(kata3);
 
-        System.out.println("kata pertama sama dengan kata kedua : " + hasil1);
-        System.out.println("kata pertama sama dengan kata ketiga : " + hasil2);
+        if (hasil1) {
+            System.out.println("Kata pertama sama dengan kata kedua ");
+        } else {
+            System.out.println("Kata pertama TIDAK sama dengan kata kedua ");
+        }
 
-       
+        if (hasil2) {
+            System.out.println("Kata pertama sama dengan kata ketiga ");
+        } else {
+            System.out.println("Kata pertama TIDAK sama dengan kata ketiga ");
+        }
     }
 }
