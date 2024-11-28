@@ -1,25 +1,29 @@
 import java.util.Scanner;
 
-public class Day88 {
+public class Day88{
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("masukkan nama file: ");
-        String file = input.nextLine();
+        System.out.print("Masukkan nama file : ");
+        String namafile = input.nextLine();
         String format = "";
         boolean titik = false;
-
-        for (int i = file.length() - 1; i >= 0; i--) {
-            if (file.charAt(i) == '.') {
+        int i = namafile.length() - 1;
+        
+        while (i >= 0) {
+            if (namafile.charAt(i) == '.') {
                 titik = true;
-                break;
+                break;  
             }
-            format = file.charAt(i) + format;
+            format = namafile.charAt(i) + format; 
+            i--;
         }
 
-        System.out.println("format file adalah: " + format);
-
+        if (titik) {
+            System.out.println("Format file adalah: " + format);
+        } else {
+            System.out.println("File tidak memiliki format ekstensi.");
+        }
     }
-
 }
